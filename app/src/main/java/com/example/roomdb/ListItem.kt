@@ -19,7 +19,7 @@ import com.example.roomdb.data.NameEntity
 @Composable
 fun ListItem(
     item: NameEntity,
-    onClick: (NameEntitfgy) -> Unit,
+    onClick: (NameEntity) -> Unit,
     onClickDelete: (NameEntity) -> Unit
 ){
     Card(
